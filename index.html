@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="min.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" >
+    <title>Home</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="date">
+        <p><span id="year"></span>&#x5E74;<span id="month"></span>&#26376;<span id="day"></span>&#26085;</p>
+        <script>
+          var d = new Date();
+          document.getElementById("year").innerHTML = d.getFullYear();
+          document.getElementById("month").innerHTML = d.getMonth() + 1;
+          document.getElementById("day").innerHTML = d.getDate();
+        </script>
+      </div>
+
+      <div class="bookmarks">
+       <!-- General -->
+        <div class="square">
+          <div class="square-header">GENERAL</div>
+          <a href="https://mail.google.com/mail/" target="_blank">gmail</a>
+          <a href="https://calendar.google.com/calendar/" target="_blank">calendar</a>
+          <a href="https://www.linkedin.com/" target="_blank">linkedin</a>
+          <a href="https://github.com/" target="_blank">github</a>
+          <a href="http://binslashquinn.com/" target="_blank">/bin/quinn</a>
+        </div>
+        <!-- News -->
+         <div class="square">
+           <div class="square-header">NEWS</div>
+           <a href="https://www.bbc.com/news" target="_blank">bbc</a>
+           <a href="https://www.nytimes.com/" target="_blank">nyt</a>
+           <a href="https://itsfoss.com/category/news/" target="_blank">itsfoss</a>
+         </div>
+        <!-- Else -->
+        <div class="square">
+          <div class="square-header">ELSE</div>
+          <a href="https://www.reddit.com/r/MechanicalKeyboards/" target="_blank">r/mk</a>
+          <a href="https://www.twitch.tv/" target="_blank">twitch</a>
+          <a href="https://www.crunchyroll.com/" target="_blank">crunchyroll</a>
+          <a href="https://myanimelist.net/" target="_blank">mal</a>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

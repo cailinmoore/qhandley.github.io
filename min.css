@@ -1,0 +1,75 @@
+html
+{
+  background-color: #24292e;
+}
+
+body
+{
+  margin: 0px;
+  user-select: none;
+  -moz-user-select: none; /* Mozilla-specific value */
+}
+
+.container
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.date
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 44%;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 3em;
+  color: #fafbfc;
+}
+.date p
+{
+  margin: 0em 0em 1em 0em;
+}
+
+.bookmarks
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  width: 44%;
+}
+
+.square
+{
+  padding: 0.4em;
+  width: 100%;
+  height: auto;
+  margin: 0em .5em;
+  text-align: center;
+}
+
+.square-header
+{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #8fbcbb;
+  margin: 0em 0em .5em 0em;
+}
+
+a
+{
+  text-decoration: none;
+  color: #fafbfc;
+  display: block;
+  margin: .5em 0em;
+}
+
+a:hover
+{
+  opacity: 0.5;
+}
